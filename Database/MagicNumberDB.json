@@ -1,0 +1,59 @@
+[
+  {
+    "Signature": "25 50 44 46",
+    "Type": "PDF",
+    "Tools": [
+      "Foremost:\tOne of the best data-scraping [https://en.wikipedia.org/wiki/Data_scraping] tool available out there, Foremost is something which is recommended to be ran\n\t\t\t\ton almost all files you encounter during a challenge, but since most PDF challenges have something embedded in it I have included Foremost here.\n\t\t\t\tDownload Foremost: http://foremost.sourceforge.net/",
+      "Scalpel:\tJust like Foremost, this is another data-scraper because sometimes what one tool might fail to do, the other might succeed.\n\t\t\t\tDownload Scalpel: https://github.com/sleuthkit/scalpel",
+      "PDFCrack:\tThis program is the first choice if you ever encounter a PDF file which is password protected. This small utility is fast, allows bruteforce and can work\n\t\t\t\twith a wordlist (recommended wordlist: rockyou.txt)\n\t\t\t\tDownload PDFCrack: http://pdfcrack.sourceforge.net/"
+    ]
+  },
+  {
+    "Signature": "52 49 46 46",
+    "Type": "WAV"
+  },
+  {
+    "Signature": "50 4B 03 04",
+    "Type": "ZIP"
+  },
+  {
+    "Signature": "89 50 4E 47",
+    "Type": "PNG",
+    "Tools": [
+      "zsteg: https://github.com/zed-0xff/zsteg",
+      "Stegsolve: Blah blah"
+    ]
+  },
+  {
+    "Signature": "38 42 50 53",
+    "Type": "PSD"
+  },
+  {
+    "Signature": "FF D8 FF E0",
+    "Type": "JPEG/JFIF"
+  },
+  {
+    "Signature": "7F 45 4C 46",
+    "Type": "ELF"
+  },
+  {
+    "Signature": "CA FE BA BE",
+    "Type": "JAVA Class File"
+  },
+  {
+    "Signature": "75 73 74 61",
+    "Type": "TAR"
+  },
+  {
+    "Signature": "37 7A BC AF",
+    "Type": "7ZIP"
+  },
+  {
+    "Signature": "3C 3F 78 6D",
+    "Type": "XML"
+  },
+  {
+    "Signature": "42 5A 68 39",
+    "Type": "BZIP2 Archive"
+  }
+]

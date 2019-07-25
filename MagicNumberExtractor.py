@@ -1,7 +1,6 @@
 import binascii
 from argparse import ArgumentParser
 import json
-import msgpack 
 
 print('')
 parser = ArgumentParser()
@@ -13,7 +12,7 @@ with open(args.filename, "rb") as binary_file:
     data = ' '.join([data[i:i+2] for i in range(0, len(data), 2)])
     print('[+] Magic number of the given file =', data)
 
-with open('/home/nullvoiddeath/PycharmProjects/ctf-analyzer-tool/MagicNumberDB.json', 'r') as f:
+with open('Database/MagicNumberDB.json', 'r') as f:
     MagicNumbers = json.load(f)
 
 for Hash in MagicNumbers:
@@ -22,5 +21,4 @@ for Hash in MagicNumbers:
         print('[+] File type is =', Hash['Type'])
         print('[+] Tools to use ↴')
         for Tools in Hash['Tools']:
-            print('\t\t[' + str(i+1) + '] ' + Tools)
-            i += 1
+            print('\t\t[+] ' + Tools + '\n')
