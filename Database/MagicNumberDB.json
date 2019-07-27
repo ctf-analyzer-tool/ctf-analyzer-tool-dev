@@ -5,6 +5,7 @@
     "Tools": [
       "Foremost:\tOne of the best data-scraping [https://en.wikipedia.org/wiki/Data_scraping] tool available out there, Foremost is something which is recommended to be ran\n\t\t\t\ton almost all files you encounter during a challenge, but since most PDF challenges have something embedded in it I have included Foremost here.\n\t\t\t\tDownload Foremost: http://foremost.sourceforge.net/",
       "Scalpel:\tJust like Foremost, this is another data-scraper because sometimes what one tool might fail to do, the other might succeed.\n\t\t\t\tDownload Scalpel: https://github.com/sleuthkit/scalpel",
+      "Binwalk:\tThis a firmware analysis tool, used to retrieve data from numerous image files (.img, .ext4 etc) but can this can be used to embedded files from other extensions too.\n\t\t\t\tDownload Binwalk: https://github.com/ReFirmLabs/binwalk",
       "PDFCrack:\tThis program is the first choice if you ever encounter a PDF file which is password protected. This small utility is fast, allows bruteforce and can work\n\t\t\t\twith a wordlist (recommended wordlist: rockyou.txt)\n\t\t\t\tDownload PDFCrack: http://pdfcrack.sourceforge.net/"
     ]
   },
