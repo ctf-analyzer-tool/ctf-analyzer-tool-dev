@@ -19,6 +19,6 @@ for Hash in MagicNumbers:
     i = 0
     if data == Hash['Signature']:
         print('[+] File type is =', Hash['Type'])
-        print('[+] Tools to use ↴')
+        print('[+] Tools to use ↴↴↴\n')
         for Tools in Hash['Tools']:
-            print('\t\t[+] ' + Tools + '\n')
+            print('[+] ' + Tools + '\n')

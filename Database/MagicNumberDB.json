@@ -3,26 +3,36 @@
     "Signature": "25 50 44 46",
     "Type": "PDF",
     "Tools": [
-      "Foremost:\tOne of the best data-scraping [https://en.wikipedia.org/wiki/Data_scraping] tool available out there, Foremost is something which is recommended to be ran\n\t\t\t\ton almost all files you encounter during a challenge, but since most PDF challenges have something embedded in it I have included Foremost here.\n\t\t\t\tDownload Foremost: http://foremost.sourceforge.net/",
-      "Scalpel:\tJust like Foremost, this is another data-scraper because sometimes what one tool might fail to do, the other might succeed.\n\t\t\t\tDownload Scalpel: https://github.com/sleuthkit/scalpel",
-      "Binwalk:\tThis a firmware analysis tool, used to retrieve data from numerous image files (.img, .ext4 etc) but can this can be used to embedded files from other extensions too.\n\t\t\t\tDownload Binwalk: https://github.com/ReFirmLabs/binwalk",
-      "PDFCrack:\tThis program is the first choice if you ever encounter a PDF file which is password protected. This small utility is fast, allows bruteforce and can work\n\t\t\t\twith a wordlist (recommended wordlist: rockyou.txt)\n\t\t\t\tDownload PDFCrack: http://pdfcrack.sourceforge.net/"
+      "Foremost: One of the best data-scraping [https://en.wikipedia.org/wiki/Data_scraping] tool available out there, Foremost is something which is recommended to be ran ton almost all files you encounter during a challenge, but since most PDF challenges have something embedded in it I have included Foremost here.\n\t[-] Download Foremost: http://foremost.sourceforge.net/",
+      "Scalpel: Just like Foremost, this is another data-scraper because sometimes what one tool might fail to do, the other might succeed.\n\t[-] Download Scalpel: https://github.com/sleuthkit/scalpel",
+      "Binwalk: This a firmware analysis tool, used to retrieve data from numerous image files (.img, .ext4 etc) but can this can be used to embedded files from other extensions too.\n\t[-] Download Binwalk: https://github.com/ReFirmLabs/binwalk",
+      "PDFCrack: This program is the first choice if you ever encounter a PDF file which is password protected. This small utility is fast, allows bruteforce and can work with a wordlist (recommended wordlist: rockyou.txt)\n\t[-] Download PDFCrack: http://pdfcrack.sourceforge.net/"
     ]
   },
   {
     "Signature": "52 49 46 46",
-    "Type": "WAV"
+    "Type": "WAV",
+    "Tools": [
+      "Sonic Visualizer: The go to tool for analysis of wav audio files as most challenges use audio spectrum to hide data, which can be extracted using the built-in spectrum viewer in Sonic Visualizer.\n\t[-] Download Sonic Visualizer: https://www.sonicvisualiser.org/download.html",
+      "WavSteg: It's a tool written in python [WavSteg.py] which can be used to hide data in wav and can also extract from them.\n\t[-] Download WavSteg: https://github.com/ragibson/Steganography#WavSteg",
+      "Steghide: This is a very popular tool, used to extract stegano-data. Usually used with JPEG images, sometimes a challenge might involve using it with an WAV file.\n\t[-] Download Steghide: http://steghide.sourceforge.net/download.php"
+    ]
+
   },
   {
     "Signature": "50 4B 03 04",
-    "Type": "ZIP"
+    "Type": "ZIP",
+    "Tools": [
+      "frackzip: The best tool available to crack a password protected ZIP file. Just like PDFCrack, this also supports wordlist attack, which is way faster than bruteforce.\n\t[-] Download frackzip: https://pkgs.org/download/fcrackzip or https://github.com/hyc/fcrackzip",
+      "strings: This is a command line utility, which comes by default with almost every imaginable Linux distro(?). This returns all the readable ASCII strings present in a file, which in case of ZIP files might contain the name of the compressed data.\n\t[-] Usage: `string filename`"
+    ]
   },
   {
     "Signature": "89 50 4E 47",
     "Type": "PNG",
     "Tools": [
-      "zsteg: https://github.com/zed-0xff/zsteg",
-      "Stegsolve: Blah blah"
+      "zsteg: This is a very powerful tool to detect hidden data and extract it. zsteg support lots of forms of steganography techniques and hence works on most type of challenges. This tool only works with PNG and BMP files.\n\t[-] Download zsteg: https://github.com/zed-0xff/zsteg",
+      "Stegsolve: This is a tool written in Java, which lets you solve challenges involving images in which text is hidden that can only be seen when specific color settings are applied. Stegsolve allows you to cycle between many useful filters and it also have the ability to work on two images at once, by overlapping them together.\n\t[-] Download stegsolve: https://github.com/eugenekolo/sec-tools/tree/master/stego/stegsolve/stegsolve"
     ]
   },
   {
@@ -31,7 +41,10 @@
   },
   {
     "Signature": "FF D8 FF E0",
-    "Type": "JPEG/JFIF"
+    "Type": "JPEG/JFIF",
+    "Tools": [
+
+    ]
   },
   {
     "Signature": "7F 45 4C 46",
